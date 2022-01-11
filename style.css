@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #E5E5E5;
+}
+
 .nav_section {
     background-color: #562EFF;
     color: white;
@@ -33,4 +37,49 @@ nav ul li a {
 
 nav ul li img {
     margin-top: -13px;
+}
+
+.container_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 54%;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 33px;
+}
+
+.container h2 {
+    color: #562EFF;
+    margin-left: 10px;
+}
+
+.box_container {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: end;
+    grid-gap: 30px;
+}
+
+.box {
+    /* background-color: darkgoldenrod; */
+    width: 193px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box img {
+    width: 56px;
+    height: 56px;
+}
+
+.box p {
+    font-size: 18px;
 }
