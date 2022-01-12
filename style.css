@@ -41,6 +41,7 @@ nav ul li img {
 
 .container_section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -123,4 +124,52 @@ nav ul li img {
     margin-left: 16px;
     font-weight: bold;
     font-size: 20px;
+}
+
+.card {
+    height: 269px;
+    width: 250px;
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 11px 22px 28px 22px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card_image img {
+    height: 104px;
+    width: 224px;
+}
+
+.card_title p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.author {
+    color: #ED6B4F;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
+
+.stars i {
+    color: #FFC014;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.stars span i {
+    color: #AEAEAE;
+}
+
+.time {
+    margin-left: 50px;
+}
+
+.time i {
+    font-size: 18px;
+    color: #FF4A60 !important;
+    background-color: #FFE4E8;
+    padding: 5px;
+    border-radius: 25px;
 }
