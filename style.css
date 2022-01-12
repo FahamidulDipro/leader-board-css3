@@ -49,9 +49,10 @@ nav ul li img {
 .container {
     background-color: white;
     width: 54%;
-    margin-top: 70px;
+    margin-top: 54px;
     border-radius: 10px;
     padding: 0 33px;
+    margin-bottom: 20px;
 }
 
 .container h2 {
@@ -172,4 +173,105 @@ nav ul li img {
     background-color: #FFE4E8;
     padding: 5px;
     border-radius: 25px;
+}
+
+
+/* Responsive Design */
+
+@media only screen and (max-width:700px) {
+    .logo img {
+        width: 29.42px;
+        height: 33px;
+    }
+    ul li {
+        list-style: none;
+        margin-top: 15px;
+        display: flex;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+        margin-right: 16px;
+        font-size: 13px;
+    }
+    .nav_section {
+        background-color: #562EFF;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0;
+        padding: 5px;
+    }
+    .box_container {
+        grid-template-columns: 1fr;
+    }
+    .container h2 {
+        color: #562EFF;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .box img {
+        width: 56px;
+        height: 56px;
+    }
+    .box p {
+        font-size: 13px;
+    }
+    .container {
+        background-color: white;
+        width: 70%;
+        margin-top: 54px;
+        border-radius: 10px;
+        padding: 0 33px;
+        margin-bottom: 16px;
+    }
+    .box_container_2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin-top: 30px;
+    }
+    .blog {
+        /* border: 2px solid purple; */
+        width: 73%;
+        /* height: 117px; */
+        /* margin: -22px 13px 13px 0; */
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .blog p {
+        margin-left: 6px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .blog_title .name {
+        font-size: 10px;
+        margin-top: 6px;
+        color: #9F9F9F;
+        font-weight: normal;
+    }
+    .card {
+        width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        margin-top: 38px;
+        /* margin-bottom: -24px; */
+    }
+    .card_image img {
+        height: 104px;
+        width: 224px;
+    }
+    .card_title p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .author {
+        color: #ED6B4F;
+        font-weight: 400 !important;
+        font-size: 15px !important;
+    }
 }
