@@ -175,6 +175,23 @@ nav ul li img {
     border-radius: 25px;
 }
 
+.list-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#add-list {
+    background-color: #562EFF;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
 
 /* Responsive Design */
 
