@@ -206,6 +206,14 @@ nav ul li img {
     .box_container {
         grid-template-columns: 1fr;
     }
+    .box {
+        /* background-color: darkgoldenrod; */
+        width: 59%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
     .container h2 {
         color: #562EFF;
         margin-left: 5px;
