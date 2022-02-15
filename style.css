@@ -192,6 +192,30 @@ nav ul li img {
     margin-bottom: 100px;
 }
 
+#input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 100px;
+    background-color: #AEAEAE;
+}
+
+#input-box {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#increase-btn {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FF4A60;
+    color: wheat;
+    border-radius: 10px;
+}
+
 
 /* Responsive Design */
 

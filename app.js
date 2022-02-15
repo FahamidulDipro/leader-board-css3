@@ -16,3 +16,7 @@ document.getElementById('add-list').addEventListener('click', () => {
         count));
     ul.appendChild(li);
 })
+
+document.getElementById('increase-btn').addEventListener('click', () => {
+
+})
