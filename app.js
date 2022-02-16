@@ -17,6 +17,18 @@ document.getElementById('add-list').addEventListener('click', () => {
     ul.appendChild(li);
 })
 
+
+window.onload = () => {
+    document.getElementById('input-box').value = '0';
+}
+let countInput = parseInt(document.getElementById('input-box').value);
 document.getElementById('increase-btn').addEventListener('click', () => {
+    if (countInput < 5) {
+        countInput++;
+        document.getElementById('input-box').value = countInput;
+
+    } else {
+        document.getElementById('increase-btn').disabled = true;
+    }
 
 })
